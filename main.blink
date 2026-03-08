@@ -1,0 +1,11 @@
+option Casing = Camel
+
+option ClientOutput = "D:\Roblox\Jojo\src\modules\ClientEvents.luau"
+option ServerOutput = "D:\Roblox\Jojo\src\modules\ServerEvents.luau"
+
+event MyFirstEvent {
+    from: Server,
+    type: Reliable,
+    call: SingleSync,
+    data: string
+}
