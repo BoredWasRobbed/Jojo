@@ -1,7 +1,7 @@
 local CombatConfig = {
 	DebugMode = false,
 
-	Animations = {
+	PlayerAnimations = {
 		Idle = "rbxassetid://105300707423880",
 		WalkLeft = "rbxassetid://134576011338472",
 		WalkRight = "rbxassetid://122239714025210",
@@ -33,6 +33,11 @@ local CombatConfig = {
 		Block = "rbxassetid://123740957953259",
 		Parry = "rbxassetid://91908466669667",
 		Parried = "rbxassetid://109231501978287",
+	},
+
+	StandAnimations = {
+		BasicStandSummon = "rbxassetid://132173979661212",
+		BasicStandIdle = "rbxassetid://117243129930131",
 	},
 
 	Sounds = {

@@ -6,7 +6,7 @@ local Config = require(Modules:WaitForChild("CombatConfig"))
 
 local assetsToLoad = {}
 
-for animName, animId in pairs(Config.Animations) do
+for animName, animId in pairs(Config.PlayerAnimations) do
 	local anim = Instance.new("Animation")
 	anim.AnimationId = animId
 	anim.Name = animName
