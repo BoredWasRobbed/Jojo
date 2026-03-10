@@ -13,6 +13,13 @@ for animName, animId in pairs(Config.PlayerAnimations) do
 	table.insert(assetsToLoad, anim)
 end
 
+for animName, animId in pairs(Config.StandAnimations) do
+	local anim = Instance.new("Animation")
+	anim.AnimationId = animId
+	anim.Name = animName
+	table.insert(assetsToLoad, anim)
+end
+
 for soundName, soundId in pairs(Config.Sounds) do
 	local sound = Instance.new("Sound")
 	sound.SoundId = soundId

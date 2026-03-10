@@ -13,7 +13,6 @@ DataManager.PlayerLoaded.Event:Connect(function(player: Player, data)
 	end
 end)
 
--- You can safely test APIs in game loops, commands, or events using:
 -- DataManager:Get(player, "Money")
 -- DataManager:Increment(player, "Money", 100)
 -- DataManager:Set(player, "Stand", "The World")
